@@ -1,0 +1,185 @@
+{
+  "ddia": {
+    "key": "/works/OL19293745W",
+    "cover": 8434671
+  },
+  "sdi": {
+    "key": "/works/OL21947791W",
+    "cover": 11916707
+  },
+  "sre": {
+    "key": "/works/OL20028554W",
+    "cover": 9196682,
+    "freeOk": true
+  },
+  "microservices": {
+    "key": "/works/OL19547194W",
+    "cover": 8513315
+  },
+  "releaseit": {
+    "key": "/works/OL8848832W",
+    "cover": 743624
+  },
+  "fsa": {
+    "key": "/works/OL20872782W",
+    "cover": 10193363
+  },
+  "dynamo": {
+    "freeOk": true
+  },
+  "raft": {
+    "freeOk": true
+  },
+  "ctci": {
+    "key": "/works/OL16816263W",
+    "cover": 7276811
+  },
+  "skiena": {
+    "key": "/works/OL2677499W",
+    "cover": 245565
+  },
+  "clrs": {
+    "key": "/works/OL4781294W",
+    "cover": 2341462
+  },
+  "pragmatic": {
+    "key": "/works/OL5748544W",
+    "cover": 10143650
+  },
+  "cleancode": {
+    "key": "/works/OL17618370W",
+    "cover": 8065615
+  },
+  "refactoring": {
+    "key": "/works/OL16551230W",
+    "cover": 7087623
+  },
+  "aposd": {
+    "key": "/works/OL21221785W",
+    "cover": 10352230
+  },
+  "sicp": {
+    "key": "/works/OL3267304W",
+    "cover": 149338,
+    "freeOk": true
+  },
+  "dbint": {
+    "key": "/works/OL21360140W",
+    "cover": 14572292
+  },
+  "fde": {
+    "key": "/works/OL27850217W",
+    "cover": 14831765
+  },
+  "kimball": {
+    "key": "/works/OL2983865W",
+    "cover": 301298
+  },
+  "hpmysql": {
+    "key": "/works/OL15705149W",
+    "cover": 5076309
+  },
+  "streaming": {
+    "key": "/works/OL19542624W",
+    "cover": 8508647
+  },
+  "gfs": {
+    "freeOk": true
+  },
+  "mapreduce": {
+    "freeOk": true
+  },
+  "bigtable": {
+    "freeOk": true
+  },
+  "homl": {
+    "key": "/works/OL20709638W",
+    "cover": 9388208
+  },
+  "d2l": {
+    "key": "/works/OL35722907W",
+    "cover": 14599340,
+    "freeOk": true
+  },
+  "dl": {
+    "key": "/works/OL17801809W",
+    "cover": 8086288,
+    "freeOk": true
+  },
+  "prml": {
+    "key": "/works/OL2963587W",
+    "cover": 245089
+  },
+  "aima": {},
+  "attention": {
+    "freeOk": true
+  },
+  "dmls": {
+    "key": "/works/OL26768541W",
+    "cover": 13314480
+  },
+  "aieng": {
+    "key": "/works/OL39671094W",
+    "cover": 15091156
+  },
+  "phoenix": {
+    "key": "/works/OL16806686W",
+    "cover": 9151976
+  },
+  "accelerate": {
+    "key": "/works/OL19542983W",
+    "cover": 8509069
+  },
+  "teamtopo": {
+    "key": "/works/OL21232655W",
+    "cover": 10354937
+  },
+  "k8s": {},
+  "iac": {
+    "key": "/works/OL19546636W",
+    "cover": 8512689
+  },
+  "ostep": {
+    "freeOk": true
+  },
+  "kurose": {
+    "key": "/works/OL45032796W"
+  },
+  "tlcl": {
+    "key": "/works/OL16117040W",
+    "cover": 7087755,
+    "freeOk": true
+  },
+  "sixhabits": {
+    "key": "/works/OL20934802W",
+    "cover": 10302137
+  },
+  "mts": {
+    "key": "/works/OL5963130W",
+    "cover": 1939398
+  },
+  "greatdemo": {
+    "key": "/works/OL8154892W",
+    "cover": 388074
+  },
+  "spin": {
+    "key": "/works/OL1990870W",
+    "cover": 55114
+  },
+  "challenger": {
+    "key": "/works/OL15981317W",
+    "cover": 7970492
+  },
+  "chasm": {
+    "key": "/works/OL30695W",
+    "cover": 684159
+  },
+  "inspired": {
+    "key": "/works/OL16803591W",
+    "cover": 9700654
+  },
+  "voss": {
+    "key": "/works/OL18819818W",
+    "cover": 8365942
+  }
+}

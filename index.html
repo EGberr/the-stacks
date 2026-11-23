@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>The Stacks — a 3D library of the books that matter in tech</title>
+    <meta
+      name="description"
+      content="Walk a 3D library of 48 essential tech books and papers. Open one for its five key ideas, follow a reading path, track what you have read."
+    />
+    <meta name="theme-color" content="#060b0a" />
+    <meta property="og:title" content="The Stacks" />
+    <meta property="og:description" content="A 3D library of the books and papers that matter in tech." />
+    <meta property="og:image" content="./og.jpg" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="room" aria-label="A circular 3D library. Each wall holds the books of one field."></canvas>
+
+    <div id="opening" class="opening" aria-hidden="true">
+      <p class="eyebrow">Forty-eight books and papers</p>
+      <h1 id="opening-title"></h1>
+      <p class="eyebrow">The reading that matters in tech</p>
+    </div>
+
+    <div id="hud" class="hud hidden">
+      <header class="top">
+        <a class="mark" href="./" aria-label="The Stacks, home">The <em>Stacks</em></a>
+        <div class="tools">
+          <label class="search">
+            <span class="sr">Search the collection</span>
+            <input id="search" type="search" placeholder="Search title, author, idea" autocomplete="off" spellcheck="false" />
+            <kbd>/</kbd>
+          </label>
+          <button id="paths-open" class="pill"><span class="wide">Reading </span>paths</button>
+          <p id="progress" class="progress" title="Books you have marked as read"></p>
+        </div>
+      </header>
+
+      <section class="headline" aria-live="polite">
+        <p id="count" class="eyebrow"></p>
+        <h2 id="title"></h2>
+        <p id="line" class="line"></p>
+      </section>
+
+      <nav id="nav" class="nav" aria-label="Fields"></nav>
+
+      <div id="pathbar" class="pathbar hidden">
+        <div>
+          <p class="eyebrow" id="path-meta"></p>
+          <p id="path-name" class="path-name"></p>
+        </div>
+        <ol id="path-steps"></ol>
+        <button id="path-exit" class="pill">Leave path</button>
+      </div>
+
+      <p id="hint" class="hint">Scroll, swipe or press <kbd>←</kbd> <kbd>→</kbd> to turn the room · click a book to open it</p>
+    </div>
+
+    <div id="tip" class="tip" aria-hidden="true"></div>
+    <div id="steps" class="steps" aria-hidden="true"></div>
+
+    <aside id="card" class="card" aria-live="polite"></aside>
+
+    <div id="paths" class="sheet hidden" role="dialog" aria-label="Reading paths">
+      <div class="sheet-inner">
+        <button id="paths-close" class="close" aria-label="Close">×</button>
+        <p class="eyebrow">Reading paths</p>
+        <h3>Pick a goal. The books <em>line up.</em></h3>
+        <ul id="path-list"></ul>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
